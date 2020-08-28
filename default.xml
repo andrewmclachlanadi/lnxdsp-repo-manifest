@@ -5,7 +5,7 @@
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/analogdevicesinc" name="adigithub"/>
+  <remote fetch="https://github.com/davidgibsonadi" name="adigithub"/>
 
   <project remote="yocto" revision="50f33d3bfebcbfb1538d932fb487cfd789872026" name="poky" path="sources/poky"/> <!-- thud revision -->
   <project remote="oe" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" name="meta-openembedded" path="sources/meta-openembedded"/> <!-- thud revision -->
