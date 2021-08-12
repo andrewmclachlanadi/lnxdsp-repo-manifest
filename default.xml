@@ -5,12 +5,10 @@
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
   <remote fetch="https://github.com/davidgibsonadi" name="adigithub"/>
 
   <project remote="yocto" revision="6ebb33bdaccaeadff0c85aab27acf35723df00d8" name="poky" path="sources/poky"/> <!-- dunfell revision -->
   <project remote="oe" revision="11eae114522a6befa06c7f4021a83bc016133543" name="meta-openembedded" path="sources/meta-openembedded"/> <!-- dunfell revision -->
-  <project remote="qt5" revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" name="meta-qt5" path="sources/meta-qt5"/> <!-- dunfell revision -->
   <project remote="adigithub" revision="develop/dunfell" name="lnxdsp-adi-meta-poc" path="sources/meta-adi"/>
   <project remote="adigithub" revision="develop/g-xp" name="lnxdsp-scripts-poc" path="sources">
 	  <linkfile dest="setup-environment" src="setup-environment"/>
