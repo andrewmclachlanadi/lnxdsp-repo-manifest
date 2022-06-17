@@ -11,7 +11,8 @@
   <project remote="oe" revision="11eae114522a6befa06c7f4021a83bc016133543" name="meta-openembedded" path="sources/meta-openembedded"/> <!-- dunfell revision -->
   <project remote="adigithub" revision="develop/g-xp2" name="lnxdsp-adi-meta-poc" path="sources/meta-adi"/>
   <project remote="adigithub" revision="develop/g-xp2" name="lnxdsp-scripts-poc" path="sources">
-	  <linkfile dest="setup-environment" src="setup-environment"/>
+  <project remote="adigithub" revision="develop/g-xp2-secureboot" name="lnxdsp-adi-security-meta" path="sources/meta-adi-security">
+  <linkfile dest="setup-environment" src="setup-environment"/>
   </project>>
 
 </manifest>
